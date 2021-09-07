@@ -168,8 +168,7 @@ nav + .text-landing {
 
 .program {
     width: 500px;
-/*    height: 100px;*/
-   margin-bottom: 60px;
+    margin-bottom: 60px;
     display: grid;
     grid-template-columns: repeat(2, auto);
 }
@@ -616,10 +615,13 @@ footer a {
     .program > *{
         display: block;
         margin: auto;
-        /* margin-bottom: 50px; */
     }
     .text-landing {
         width: 100%;
+    }
+    td {
+        padding-left: 3px;
+        padding-right: 3px;        
     }
 }
 
@@ -629,9 +631,9 @@ footer a {
         width: 98%;
     }
     .program {
-        width: 80%;
+        width: 95%;
         margin: auto;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         text-align: center;
     }
     .program:last-child {
