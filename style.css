@@ -601,6 +601,7 @@ footer a {
         width: 97%;
     }
     .programs-cont {
+        margin-bottom: 30;
         grid-template-columns: auto;
         /* margin-bottom: 100px; */
     }
@@ -628,12 +629,13 @@ footer a {
 
 @media (max-width: 377px) {
     .container {
-        width: 98%;
+/*         width: 98%; */
+        width: 100%;
     }
     .program {
-        width: 95%;
+        width: 98%;
         margin: auto;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         text-align: center;
     }
     .program:last-child {
